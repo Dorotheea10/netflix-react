@@ -11,60 +11,50 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Ecco un README strutturato per il tuo repository **Netflix React**:  
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# 🎬 Netflix Clone - React  
 
-### `npm run build`
+### 📖 Descrizione  
+Questo progetto è un clone di Netflix sviluppato con **React**. Consente di visualizzare una lista di film e serie TV, recuperando i dati da un'API e mostrando le informazioni in un'interfaccia moderna e reattiva.  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🚀 Tecnologie utilizzate  
+- **React.js**  
+- **JavaScript (ES6+)**  
+- **CSS / Tailwind CSS** (se utilizzato)  
+- **Axios** (per le chiamate API)  
+- **Firebase** (se usato per autenticazione o database)  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 📂 Struttura del progetto  
+- **src/** → Contiene i componenti React e le configurazioni  
+- **components/** → Componenti riutilizzabili per l’interfaccia  
+- **pages/** → Pagine principali dell'app (Home, Login, ecc.)  
+- **services/** → Gestione delle chiamate API  
+- **assets/** → Immagini e file statici  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 🛠️ Installazione e utilizzo  
+1. Clona il repository:  
+   ```bash
+   git clone https://github.com/Dorotheea10/netflix-react.git
+   ```  
+2. Entra nella cartella del progetto:  
+   ```bash
+   cd netflix-react
+   ```  
+3. Installa le dipendenze:  
+   ```bash
+   npm install
+   ```  
+4. Avvia l'applicazione in locale:  
+   ```bash
+   npm start
+   ```  
+5. Apri il browser su `http://localhost:3000`  
 
-### `npm run eject`
+### 📌 Note  
+- Assicurati di avere **Node.js** installato (min. versione 14)  
+- Se usi un’API, inserisci la tua chiave API in un file **.env**  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
